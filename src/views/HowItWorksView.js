@@ -1,4 +1,4 @@
-import { useRouter } from 'https://unpkg.com/vue-router@4.5.0/dist/vue-router.esm-browser.js';
+import { useRouter } from 'vue-router';
 import { useAppStore } from '../stores/appStore.js';
 
 export const HowItWorksView = {

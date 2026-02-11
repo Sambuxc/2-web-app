@@ -1,5 +1,5 @@
-import { computed, ref } from 'https://unpkg.com/vue@3.5.13/dist/vue.esm-browser.prod.js';
-import { defineStore } from 'https://unpkg.com/pinia@2.3.1/dist/pinia.esm-browser.js';
+import { computed, ref } from 'vue';
+import { defineStore } from 'pinia';
 import { calculateStampProgress, getHowItWorksStep } from '../utils/rewards.js';
 
 export const useAppStore = defineStore('app', () => {

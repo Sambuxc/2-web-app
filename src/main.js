@@ -1,5 +1,5 @@
-import { createApp } from 'https://unpkg.com/vue@3.5.13/dist/vue.esm-browser.prod.js';
-import { createPinia } from 'https://unpkg.com/pinia@2.3.1/dist/pinia.esm-browser.js';
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
 import { router } from './router.js';
 import { useAppStore } from './stores/appStore.js';
 import { BottomNav } from './components/BottomNav.js';

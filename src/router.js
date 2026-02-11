@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'https://unpkg.com/vue-router@4.5.0/dist/vue-router.esm-browser.js';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import { HomeView } from './views/HomeView.js';
 import { RewardsView } from './views/RewardsView.js';
 import { MoreView } from './views/MoreView.js';

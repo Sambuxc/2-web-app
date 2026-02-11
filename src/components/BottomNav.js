@@ -1,5 +1,5 @@
-import { computed } from 'https://unpkg.com/vue@3.5.13/dist/vue.esm-browser.prod.js';
-import { useRoute, useRouter } from 'https://unpkg.com/vue-router@4.5.0/dist/vue-router.esm-browser.js';
+import { computed } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 
 const tabs = [
   { label: 'home', route: '/' },
