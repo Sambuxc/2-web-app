@@ -1,4 +1,4 @@
-export function calculateStampProgress(stamps, nextRewardAt = 3) {
+export function calculateStampProgress(stamps: number, nextRewardAt = 3) {
   const clamped = Math.max(0, Math.min(stamps, 6));
   return {
     stamps: clamped,
@@ -7,7 +7,7 @@ export function calculateStampProgress(stamps, nextRewardAt = 3) {
   };
 }
 
-export function getHowItWorksStep(step) {
+export function getHowItWorksStep(step: number) {
   const steps = [
     {
       title: 'order',

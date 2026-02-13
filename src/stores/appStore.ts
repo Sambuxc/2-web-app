@@ -1,6 +1,6 @@
 import { computed, ref } from 'vue';
 import { defineStore } from 'pinia';
-import { calculateStampProgress, getHowItWorksStep } from '../utils/rewards.js';
+import { calculateStampProgress, getHowItWorksStep } from '../utils/rewards.ts';
 
 export const useAppStore = defineStore('app', () => {
   const user = ref('sam');
@@ -24,7 +24,7 @@ export const useAppStore = defineStore('app', () => {
     rewardModalOpen.value = false;
   }
 
-  function setHowItWorksStep(step) {
+  function setHowItWorksStep(step: number) {
     howItWorksStep.value = step;
   }
 

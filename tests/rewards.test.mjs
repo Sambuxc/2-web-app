@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { calculateStampProgress, getHowItWorksStep } from '../src/utils/rewards.js';
+import { calculateStampProgress, getHowItWorksStep } from '../src/utils/rewards.ts';
 
 test('calculateStampProgress clamps stamp values and computes remaining', () => {
   const progress = calculateStampProgress(10, 3);

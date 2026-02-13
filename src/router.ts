@@ -1,8 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import { HomeView } from './views/HomeView.js';
-import { RewardsView } from './views/RewardsView.js';
-import { MoreView } from './views/MoreView.js';
-import { HowItWorksView } from './views/HowItWorksView.js';
+import { HomeView } from './views/HomeView.ts';
+import { RewardsView } from './views/RewardsView.ts';
+import { MoreView } from './views/MoreView.ts';
+import { HowItWorksView } from './views/HowItWorksView.ts';
 
 export const routes = [
   { path: '/', name: 'home', component: HomeView },

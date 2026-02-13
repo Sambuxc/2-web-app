@@ -1,5 +1,5 @@
 {
-  "name": "wagamama-mvp",
+  "name": "2-web-app",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -15,6 +15,10 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "vite": "^5.4.11"
+    "@vitejs/plugin-vue": "^6.0.2",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "^5.4.11",
+    "vue-tsc": "^3.1.5"
   }
 }
