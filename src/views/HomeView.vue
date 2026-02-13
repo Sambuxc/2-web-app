@@ -24,7 +24,10 @@
     </article>
 
     <article class="stamps-block">
-      <div class="block-head"><h2>your stamps</h2><a href="#/rewards">view details →</a></div>
+      <div class="block-head">
+        <h2>your stamps</h2>
+        <router-link to="/rewards">view details →</router-link>
+      </div>
       <div class="stamp-row">
         <span class="stamp active">✿</span><span class="stamp">✿</span><span class="stamp">✿</span><span
           class="stamp">✿</span><span class="stamp">✿</span><span class="stamp">✿</span>
