@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import HomeView from './views/HomeView.vue';
-import { RewardsView } from './views/RewardsView.ts';
+import RewardsView from './views/RewardsView.vue';
 import MoreView from './views/MoreView.vue';
 import { HowItWorksView } from './views/HowItWorksView.ts';
 
