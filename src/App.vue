@@ -15,7 +15,7 @@
       <section class="reward-modal" @click.stop>
         <div class="modal-handle"></div>
         <button class="close-btn" @click="store.closeRewardModal()">×</button>
-        <img src="../public/assets/reward-bowl.svg" alt="reward" class="reward-icon"/>
+        <img src="/assets/reward-bowl.svg" alt="reward" class="reward-icon"/>
         <h2>main reward</h2>
         <h3>how to use:</h3>
         <ul>

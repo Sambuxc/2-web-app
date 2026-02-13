@@ -12,17 +12,17 @@ export function getHowItWorksStep(step: number) {
     {
       title: 'order',
       detail: 'order in restaurant, click + collect or head to deliveroo. spend at least £12',
-      image: './public/assets/how-order.svg',
+      image: './assets/how-order.svg',
     },
     {
       title: 'check in',
       detail: 'at the bench? use your table number to check in on your app',
-      image: './public/assets/how-checkin.svg',
+      image: './assets/how-checkin.svg',
     },
     {
       title: 'enjoy',
       detail: 'collect stamps and unlock rewards every time you dine',
-      image: './public/assets/how-enjoy.svg',
+      image: './assets/how-enjoy.svg',
     },
   ];
   return steps[(step - 1 + steps.length) % steps.length];
